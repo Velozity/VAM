@@ -81,7 +81,7 @@ public class MainConfig {
 
     public void writeDefaultSettings() throws IOException {
         // Message settings
-        getMainConfig().addDefault("messages", Arrays.asList("Message 1", "Message 2"));
+        getMainConfig().addDefault("messages", Arrays.asList("Change these messages in §cplugins/VAM/config.yml", "Players online: {player_count} / {max_players} - Default VAM Message", "Random Player: {random_player} - Default VAM Message"));
         getMainConfig().addDefault("settings.timer", 60);
 
         getMainConfig().options().copyDefaults(true);
