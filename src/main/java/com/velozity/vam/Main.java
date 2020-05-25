@@ -1,6 +1,7 @@
 package com.velozity.vam;
 
 import com.velozity.vam.types.LogType;
+import org.bstats.bukkit.Metrics;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -18,8 +19,9 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         Global.getMainInstance = this;
-        registerCommands();
+        new Metrics(this, 7645);
 
+        registerCommands();
         getCommand("vam").setTabCompleter(new TabComplete());
 
         try {
