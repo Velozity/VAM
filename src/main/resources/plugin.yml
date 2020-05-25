@@ -1,7 +1,7 @@
 main: com.velozity.vam.Main
 name: VAM
 author: Velozity
-version: 1.0.0
+version: 1.0.1
 description: A lightweight auto messenger with custom variables, in-game message adder
 api-version: 1.15
 load: POSTWORLD
