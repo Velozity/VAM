@@ -1,4 +1,4 @@
-package com.velozity.vam.types;
+package com.velozity.vam;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

@@ -1,7 +1,6 @@
 package com.velozity.vam;
 
 import com.velozity.vam.types.LogType;
-import com.velozity.vam.types.TabComplete;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.plugin.java.JavaPlugin;
 

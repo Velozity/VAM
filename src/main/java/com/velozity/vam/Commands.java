@@ -1,5 +1,5 @@
 package com.velozity.vam;
-
+import com.mojang.authlib.GameProfile;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
