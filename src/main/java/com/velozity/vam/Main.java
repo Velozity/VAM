@@ -48,7 +48,7 @@ public class Main extends JavaPlugin {
             timer.cancel();
         }
 
-        timer = new Timer();
+        timer = new Timer("VAM Thread");
         timer.schedule(task, new Date(), interval * 1000);
         Global.interact.logServer(LogType.info,"Sending " + Global.mainConfig.readMessages().size() + " global messages every " + interval + " seconds");
 
